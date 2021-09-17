@@ -38,9 +38,9 @@ app.get('/api/info', (req, res) => {
 io.on('connection', (sock) => {
   console.log('Client connected');
 
-  sock.on('heartbeat', (payload) => {
+  sock.on('DSPA', (payload) => {
     payload.nodeName = name;
-    sock.emit('heartbeat', payload);
+    sock.emit('DSPA', payload);
   });
 
   sock.on('disconnect', () => {
