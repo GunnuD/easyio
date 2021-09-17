@@ -10,5 +10,5 @@ tar xvf easyio.tar.gz -C easyio
 rm easyio.tar.gz
 cd easyio 
 npm install
-pm2 start all
+node main.js
 ENDSSH
