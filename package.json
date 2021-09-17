@@ -1,5 +1,5 @@
 {
-  "name": "easyio",
+  "name": "DSPA",
   "version": "0.0.1",
   "description": "A tiny node.js app to test your socket.io connectivity",
   "main": "main.js",
