@@ -1,9 +1,9 @@
 #!/bin/bash
 
 tar czf easyio.tar.gz main.js package.json public LICENSE
-scp easyio.tar.gz 172.31.7.230:~
+scp easyio.tar.gz root@172.31.7.230:~
 rm easyio.tar.gz
-ssh 172.31.7.230 << 'ENDSSH'
+ssh root@172.31.7.230 << 'ENDSSH'
 pm2 stop all
 mkdir easyio
 tar xf easyio.tar.gz -C easyio
