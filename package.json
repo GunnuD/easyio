@@ -4,13 +4,13 @@
   "description": "A tiny node.js app to test your socket.io connectivity",
   "main": "main.js",
   "repository": {
-    "url": "git@github.com:Juriy/easyio.git",
+    "url": "git@github.com:GunnuD/easyio.git",
     "type": "git"
   },
   "scripts": {
     "start": "node main.js"
   },
-  "author": "Juriy Bura <juriy.bura@gmail.com>",
+  "author": "Digambar Singh <dspa.mobile@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
